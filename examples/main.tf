@@ -1,5 +1,5 @@
 module "metric-scope" {
-  source            = "../"
+  source            = "SudharsaneSivamany/monitoring/google"
   scoping_project   = var.project_id
   monitored_project = var.monitor_project
   dashboard_json    = var.json_file
